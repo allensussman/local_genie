@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "ExpoSoundApp",
-    "slug": "ExpoSoundApp",
-    "version": "1.0.0",
+    "name": "local_genie",
+    "slug": "local_genie",
+    "version": "1.2.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -25,6 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9a79149a-9714-482d-94e7-bf8854f3a380"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9a79149a-9714-482d-94e7-bf8854f3a380"
     }
   }
 }
